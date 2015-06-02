@@ -1,8 +1,15 @@
 # Hobbit Hole
 ===========
 
-Simple gem for rendering static and mote-angular files in hobbit.
+Simple gem for rendering static and mote files in hobbit.
 Also adds some useful shortcuts that are found in Sinatra.
+
+<h5>Why use hobbit?</h5>
+<p><a href="https://github.com/luislavena/bench-micro">It's faster than Sinatra</a>. In total it's less than 200 lines of code, so you can easily poke around and understand why things work the way they do.</p>
+
+The easiest way to get started is to use <a href="https://github.com/ErikAGriffin/the-shire">the-shire seed</a> which has the hobbit-hole gem built in. Simply clone the repo to your projects directory, rename the folder, then cd in and run `rake`. You'll have to add your own git-hub remotes after that.
+
+<h3>How to Use:</h3>
 
 To server a static html page:
 ```
@@ -40,6 +47,6 @@ end
 
 
 
-ToDo:
+<h4>ToDo:</h4>
 * Improve documentation
-* Allow for bot mote AND mote-angular files.
+* Allow for both mote AND mote-angular files.
