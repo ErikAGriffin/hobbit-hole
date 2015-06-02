@@ -49,7 +49,7 @@ module Hobbit
     end
 
     def partial(template, params = {}, context = self)
-      template = find_template "_#{template}"
+      template = find_template "partials/#{template}"
       mote template, params, context
     end
 
@@ -69,5 +69,3 @@ module Hobbit
 
   end
 end
-
-

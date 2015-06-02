@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
 
   s.name         = 'hobbit-hole'
-  s.version      = '0.0.1'
-  s.date         = '2015-03-30'
+  s.version      = '0.0.2'
+  s.date         = '2015-06-02'
   s.summary      = 'Simple hobbit extension'
   s.description  = 'Allows rendering of static HTML and mote-angular template files'
   s.authors      = ['Erik Griffin']
-  s.email        = ['griffin.erik@gmail.com']
+  s.email        = ['contact@erikgriffin.io']
   s.files        = ['lib/hobbit/hole.rb']
   s.homepage     = 'http://github.com/ErikAGriffin/hobbit-hole.git'
   s.license      = 'MIT'
